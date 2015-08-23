@@ -1,0 +1,115 @@
+html, body {
+    background: #eee;
+}
+i.uk-icon-slack {
+    -ms-transform: rotate(19deg);
+    -webkit-transform: rotate(19deg);
+    transform: rotate(19deg);
+}
+
+#box-fc, #box-bc, #box-results {
+    border: 1px solid #ddd;
+}
+
+#fc, #bc {
+    font-weight: bold;
+    color: #666;
+}
+
+.uk-panel-box {
+    background: #fff;
+}
+
+#fcolor-result-box, #bcolor-result-box, #viewresult {
+    height: 100px;
+}
+#bcolor-result-box {
+    background: #f0f0f0 url(../img/background.png);
+}
+#fcolor-result-box {
+    background: #f0f0f0 url(../img/foreground.png);
+}
+
+.text-red {
+    color: red;
+}
+.text-green {
+    color: green;
+}
+.text-blue {
+    color: blue;
+}
+.sample-text {
+    padding: 20px;
+}
+
+.header {
+    height: 400px;
+    margin-bottom: 50px;
+    z-index: 0;
+    position: relative;
+    user-select:none;
+    cursor:pointer;
+    background: #2c3e50;
+    overflow: hidden;
+    border-bottom: 1px solid #fff;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+}
+.header-content-wrapper {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    position: relative;
+    font-family: 'Bubblegum Sans', cursive;
+    letter-spacing:2px;
+}
+.header-content {
+    margin: 0 auto;
+}
+.main-title {
+    color: #fff;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 3em;
+}
+.main-subtitle {
+    font-size: 1.5em;
+}
+canvas {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#box-results input {
+    text-align: center;
+    font-weight: bold;
+}
+
+.title-results {
+    font-weight: bold;
+}
+
+.description {
+    background: #e7e8e9;
+    color: #3a3a3c;
+    padding: 20px;
+}
+
+.passed {
+    border-color: #14892c !important;
+    background: #14892c !important;
+    color: #fff !important;
+}
+.sortof {
+    border-color: #f6c342 !important;
+    background: #f6c342 !important;
+    color: #000 !important;
+}
+.failed {
+    border-color: #d04437 !important;
+    background: #d04437 !important;
+    color: #fff !important;
+}
