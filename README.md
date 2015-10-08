@@ -2,8 +2,8 @@
 
 A simple tool to evaluate and check your color contrast between foreground and background colors.
 
-**Live Link:** http://heiswayi.github.io/color-contrast-checker
+**URL:** http://heiswayi.github.io/color-contrast-checker
 
-### License
+## License
 
-[MIT License](http://heiswayi.github.io/mit-license)
+MIT License
